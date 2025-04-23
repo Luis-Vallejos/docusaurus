@@ -75,6 +75,3 @@ Si  quieres practicar con Docusaurus, ¡adelante! Haz un fork, prueba cosas y si
 Este proyecto puede usarse con fines educativos. Para otros fines, consulta o modifica la licencia según lo necesites.
 
 ---
-
-
-```
