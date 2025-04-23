@@ -78,7 +78,3 @@ Este proyecto puede usarse con fines educativos. Para otros fines, consulta o mo
 
 
 ```
-
----
-
-¿Quieres que lo adapte a un tema específico (por ejemplo, documentación de una API, portafolio de proyectos, o guía de instalación de software)? También puedo traducirlo o ajustarlo a un tono más informal o más corporativo, según a quién vaya dirigido.
