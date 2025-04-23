@@ -1,0 +1,124 @@
+:root {
+  --ifm-color-primary: #3B82F6;
+  --ifm-color-primary-dark: #2563EB;
+  --ifm-color-primary-darker: #1D4ED8;
+  --ifm-color-primary-darkest: #1E40AF;
+  --ifm-color-primary-light: #60A5FA;
+  --ifm-color-primary-lighter: #93C5FD;
+  --ifm-color-primary-lightest: #DBEAFE;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme='dark'] 
+{
+  --ifm-color-primary: #0EA5E9;
+  --ifm-color-primary-dark: #0284C7;
+  --ifm-color-primary-darker: #0369A1;
+  --ifm-color-primary-darkest: #075985;
+  --ifm-color-primary-light: #38BDF8;
+  --ifm-color-primary-lighter: #7DD3FC;
+  --ifm-color-primary-lightest: #E0F2FE;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}
+
+
+/* 1. Introducción */
+.sidebars-intro > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f129"; /* fa-book-open */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 2. Tipos de gestores */
+.sidebars-tipos-gestores > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f02d"; /* fa-list-ul */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 3. Selección de herramienta */
+.sidebars-selec-herramienta > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0b0"; /* fa-hand-pointer */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 4. Arquitectura y requisitos */
+.sidebars-arqui-requi > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0ad"; /* fa-cubes */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 5. Instalación y despliegue */
+.sidebars-instala-despliegue > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f019"; /* fa-download */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 6. Configuración y personalización */
+.sidebars-config-person > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f085"; /* fa-sliders-h */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 7. Integración y uso práctico */
+.sidebars-integra-practico > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0e7"; /* fa-plug */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 8. Mantenimiento y respaldos */
+.sidebars-manteni-respaldos > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f0ad"; /* fa-tools */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 9. Buenas prácticas de seguridad */
+.sidebars-practicas-seguridad > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f3ed"; /* fa-shield-alt */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 10. Formación y adopción */
+.sidebars-forma-adopcion > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f51c"; /* fa-chalkboard-teacher */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
+/* 11. Conclusiones y recursos */
+.sidebars-conclusi-recursos > .menu__list-item-collapsible > a.menu__link--sublist::before {
+  font-family: "Font Awesome 6 Free";
+  content: "\f02d"; /* fa-book */
+  font-weight: 900;
+  margin-right: 0.5em;
+  color: var(--ifm-color-primary);
+}
+
